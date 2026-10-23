@@ -19,7 +19,7 @@ formulario.addEventListener("submit", function (event) {
     resultado.textContent = nome + " é maior de idade.";
     resultado.classList.add("alert-success");
   } else {
-    resultado.textContent = nome + " é menor de idade.";
+    resultado.textContent ="Opa " + nome + ", O que você ta tentando seu SAFADÃO?";
     resultado.classList.remove("alert-success");
     resultado.classList.add("alert-danger");
   }
